@@ -1,5 +1,7 @@
 public class Conta {
-    double saldo;
+    // Encapsulamento: somente a própria classe consegue acessar o atributo private
+    // para outras classes terem acesso, é necessário criar métodos na classe para suprir
+    private double saldo;
     int agencia;
     int numero;
     Cliente titular;
@@ -24,5 +26,9 @@ public class Conta {
         }
 
         return false;
+    }
+
+    public double getSaldo() {
+        return this.saldo;
     }
 }
