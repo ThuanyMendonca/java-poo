@@ -6,6 +6,19 @@ public class Conta {
     private int numero;
     private Cliente titular;
 
+    // pertence a classe e não a instância do objeto
+    private static int total;
+
+    // construtor padrão
+    public Conta(int agencia, int numero) {
+        // pode utilizar Conta.total++
+        total++;
+        //System.out.println("o total de contas é: " + total);
+        this.agencia = agencia;
+        this.numero = numero;
+        //System.out.println("estou criando uma conta");
+    }
+
     public void deposita(double valor) {
         saldo += valor;
     }
@@ -37,6 +50,10 @@ public class Conta {
     }
 
     public void setNumero(int numero) {
+        if(numero <= 0) {
+            System.out.println("numero menor ou igual a zero");
+            return;
+        }
         this.numero = numero;
     }
 
@@ -45,6 +62,22 @@ public class Conta {
     }
 
     public void setAgencia(int agencia) {
+        if(agencia <= 0) {
+            System.out.println("agencia menor ou igual a zero");
+            return;
+        }
         this.agencia = agencia;
+    }
+
+    public Cliente getTitular() {
+        return this.titular;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
+    public static int getTotal() {
+        return Conta.total;
     }
 }
