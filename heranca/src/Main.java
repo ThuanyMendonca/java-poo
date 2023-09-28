@@ -11,5 +11,13 @@ public class Main {
 
         System.out.println("Duração da série: " + serie.getNome() + " duração:" + serie.getDuracaoEmMinutos());
 
+        Filme filme = new Filme();
+        filme.setDuracaoEmMinutos(180);
+        filme.setNome("lagoa azul");
+
+        CalculadoraDeTempo calculadoraDeTempo = new CalculadoraDeTempo();
+        calculadoraDeTempo.inclui(filme);
+        System.out.println(calculadoraDeTempo.getTempoTotal());
+
     }
 }
