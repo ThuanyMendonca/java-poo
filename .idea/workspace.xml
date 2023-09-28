@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b6d1d1-ba80-44ec-b584-1a8800a14366" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f3b6d1d1-ba80-44ec-b584-1a8800a14366" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/thuanymendonca/Documents/java-poo/bytebank-encapsulado/src",
+    "last_opened_file_path": "/Users/thuanymendonca/Documents/java-poo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +55,7 @@
       <updated>1695777527558</updated>
       <workItem from="1695777528587" duration="17000" />
       <workItem from="1695829811879" duration="467000" />
+      <workItem from="1695855818302" duration="27000" />
     </task>
     <servers />
   </component>
